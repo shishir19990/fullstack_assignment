@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: #000;
+  background-color: #fff;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  background-color: #f7f9fc;
+  border-radius: 10px;
+  
+}
+
+.navimg {
+  width: 5%;
+  height: 5%;
+  padding: 1rem;
+  margin-right: 1rem;
+  flex-grow: 0;
+}
+
+.navcontent {
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+  font-size: 0.6rem;
+  font-weight: 400;
+  gap: 1.5rem;
+}
+
+select {
+  text-transform: capitalize;
+  background-color: #f7f9fc;
+  border: none;
+}
+button{
+    width: 5rem;
+    padding:0.4rem;
+    border-radius: .5rem;
+}
+
+.navbtn, .navbtn1{
+   margin-left:auto;
+   text-transform: capitalize;
+   padding-right: 1rem;
+  align-content: center;
+  
+}
+
+.navbtn2{
+    color:#fff;
+    background-color: #000;
+    text-transform: capitalize;
+}
+
